@@ -1,0 +1,219 @@
+{
+  "config": {
+    "configFile": "E:\\Playwright_testing\\playwright.config.ts",
+    "rootDir": "E:/Playwright_testing",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "E:/Playwright_testing/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "",
+        "name": "",
+        "testDir": "E:/Playwright_testing",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/mirs_login.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.49.1",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\mirs_login.test.ts",
+      "file": "tests/mirs_login.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "MIRS Login Page test",
+          "file": "tests/mirs_login.test.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Invalid username and password test MIRSBranch",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 12051,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-17T10:27:47.542Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright_testing\\test-results\\tests-mirs_login-MIRS-Logi-12d58-nd-password-test-MIRSBranch\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright_testing\\test-results\\tests-mirs_login-MIRS-Logi-12d58-nd-password-test-MIRSBranch\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3408fb099b08ab98495c-b2a2549049b61b2a5bc7",
+              "file": "tests/mirs_login.test.ts",
+              "line": 7,
+              "column": 7
+            },
+            {
+              "title": "Empty Username and password test MIRSBranch ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 5243,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-17T10:28:03.582Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright_testing\\test-results\\tests-mirs_login-MIRS-Logi-025c5-d-password-test-MIRSBranch-\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright_testing\\test-results\\tests-mirs_login-MIRS-Logi-025c5-d-password-test-MIRSBranch-\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3408fb099b08ab98495c-5a9832cf0f361cc3746a",
+              "file": "tests/mirs_login.test.ts",
+              "line": 16,
+              "column": 7
+            },
+            {
+              "title": "Valid Username and password test MIRSBranch",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 11729,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-01-17T10:28:08.867Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\Playwright_testing\\test-results\\tests-mirs_login-MIRS-Logi-57597-nd-password-test-MIRSBranch\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\Playwright_testing\\test-results\\tests-mirs_login-MIRS-Logi-57597-nd-password-test-MIRSBranch\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3408fb099b08ab98495c-16642f24aaae8a522408",
+              "file": "tests/mirs_login.test.ts",
+              "line": 36,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-01-17T10:27:33.057Z",
+    "duration": 52060.67,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
